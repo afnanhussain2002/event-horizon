@@ -1,0 +1,104 @@
+[
+    {
+      "id": 1,
+      "type": "Concert",
+      "name": "Harry Styles Concert",
+      "description": "Harry Styles is one of the most popular singers in the world, and his concerts are known for being high-energy and full of fun. This concert will feature all of his biggest hits, including As It Was, Watermelon Sugar, and Adore You. You don't want to miss out on this chance to see Harry Styles live in concert!",
+      "banner_img": "https://tse2.explicit.bing.net/th?id=OIP.-dLVNkwkDSI9rjHvg2GTiAHaEL&pid=Api&P=0&h=220",
+      "tags": ["concert", "music", "pop"],
+      "location": "Madison Square Garden, New York City, NY, USA",
+      "date": "2023-11-05"
+    },
+    {
+      "id": 2,
+      "type": "Music Festival",
+      "name": "Coachella Music Festival",
+      "description": "Coachella is one of the biggest and most popular music festivals in the world. It takes place every year in Indio, California, and features top artists from all genres. This year's lineup includes Billie Eilish, Kendrick Lamar, and Harry Styles. If you're a fan of music, then Coachella is a must-attend festival!",
+      "banner_img": "https://tse1.mm.bing.net/th?id=OIP.mZfeFRvn75inStwprYhpdwHaDr&pid=Api&P=0&h=220",
+      "tags": ["music festival", "indie", "pop"],
+      "location": "Empire Polo Club, Indio, CA, USA",
+      "date": "2023-04-14"
+    },
+    {
+      "id": 3,
+      "type": "Theater",
+      "name": "Hamilton",
+      "description": "Hamilton is a Pulitzer Prize-winning musical about the life of Alexander Hamilton, one of the Founding Fathers of the United States. It is known for its catchy songs, diverse cast, and innovative storytelling. Hamilton is a must-see for anyone who loves musicals or history!",
+      "banner_img": "https://example.com/banner_images/hamilton_musical.jpg",
+      "banner_img": "https://media1.thehungryjpeg.com/thumbs2/ori_3746269_ix81djx2q4racxqk2170f29bw9lb2yu23aq8o7je_online-cinema-banner-vector-realistic-computer-monitor-movie-brochure-design-template-banner-for-movie-premiere-show-blue-curtain-theater-marketing-luxury-poster-illustration.jpg",
+      "tags": ["theater", "musical", "history"],
+      "location": "Richard Rodgers Theatre, New York City, NY, USA",
+      "date": "2023-10-25"
+    },
+    {
+      "id": 4,
+      "type": "Performing Arts",
+      "name": "New York City Ballet",
+      "description": "The New York City Ballet is one of the most prestigious ballet companies in the world. It is known for its innovative choreography and talented dancers. The New York City Ballet performs a variety of ballets, from classic to contemporary. If you're a fan of dance, then you don't want to miss a performance by the New York City Ballet!",
+      "banner_img": "https://tse1.mm.bing.net/th?id=OIP.pgGpTLZHqtLzkENTwIA7iAHaDt&pid=Api&P=0&h=220",
+      "tags": ["performing arts", "ballet", "dance"],
+      "location": "David H. Koch Theater, New York City, NY, USA",
+      "date": "2023-12-15"
+    },
+    {
+      "id": 5,
+      "type": "Film Screening",
+      "name": "Oppenheimer",
+      "description": "Oppenheimer is a biopic about the life of J. Robert Oppenheimer, the scientist who led the Manhattan Project to develop the atomic bomb. The film is directed by Christopher Nolan and stars Cillian Murphy as Oppenheimer. Oppenheimer is a must-see for anyone who is interested in history or science!",
+      "banner_img": "https://tse1.mm.bing.net/th?id=OIP.V4u3khkAU4VDaySKIs44pgHaDt&pid=Api&P=0&h=220",
+      "tags": ["film", "drama", "biography"],
+      "location": "AMC Lincoln Square 13, New York City, NY, USA",
+      "date": "2023-07-21"
+    },
+    {
+      "id": 6,
+      "type": "Premiere",
+      "name": "Avatar 2: The Way of Water",
+      "description":  "Avatar 2: The Way of Water is the sequel to the highest-grossing film of all time, Avatar. The film is directed by James Cameron and stars Zoe Saldana and Sam Worthington.",
+      "banner_img": "https://tse4.mm.bing.net/th?id=OIP.ZkyVrDdb2qqPE-tyeuY7PQHaEo&pid=Api&P=0&h=220",
+      "tags": ["film", "sci-fi", "adventure"],
+      "location": "IMAX Theatre, New York City, NY, USA",
+      "date": "2023-12-16"
+    },
+    {
+      "id": 7,
+      "type": "Comedy Show",
+      "name": "Dave Chappelle",
+      "description": "Dave Chappelle is one of the most popular comedians in the world. He is known for his sharp wit and social commentary. His comedy shows are always sold out, so be sure to get your tickets early!",
+      "banner_img": "https://www.edmontonrealestate.ca/uploads/agent-1/best-comedy-clubs-in-edmonton-ab.jpg",
+      "tags": ["comedy", "stand-up"],
+      "location": "Radio City Music Hall, New York City, NY, USA",
+      "date": "2023-12-31"
+    },
+    {
+        "id": 8,
+        "type": "Theater",
+        "name": "Wicked",
+        "description": "Wicked is a Broadway musical that tells the untold story of the Witches of Oz. It is one of the most popular musicals on Broadway, and has won numerous awards, including three Tony Awards. Wicked is a must-see for anyone who loves musicals or fantasy.",
+        "banner_img": "https://tse3.mm.bing.net/th?id=OIP.aMVOpe0NEk5KpzfuIqQXFQHaEK&pid=Api&P=0&h=220",
+        "tags": ["theater", "musical", "fantasy"],
+        "location": "Gershwin Theatre, New York City, NY, USA",
+        "date": "2023-10-28"
+      },
+      {
+        "id": 9,
+        "type": "Sports Event",
+        "name": "New York Yankees Game",
+        "description": "The New York Yankees are one of the most popular baseball teams in the world. A Yankees game is a great way to experience American culture and see some of the best baseball players in the world.",
+        "banner_img": "https://tse3.mm.bing.net/th?id=OIP.tDzlWexztOLPJP1zBCuSEAHaEc&pid=Api&P=0&h=220",
+        "tags": ["sports", "baseball", "New York Yankees"],
+        "location": "Yankee Stadium, New York City, NY, USA",
+        "date": "2023-08-05"
+      },
+      {
+        "id": 10,
+        "type": "Comedy Show",
+        "name": "Ali Wong",
+        "description": "Ali Wong is a stand-up comedian who is known for her honest and relatable humor. Her comedy shows are always sold out, so be sure to get your tickets early!",
+        "banner_img": "https://buzzkenya.com/wp-content/uploads/2017/03/Comedy.jpg",
+        "tags": ["comedy", "stand-up"],
+        "location": "Radio City Music Hall, New York City, NY, USA",
+        "date": "2023-11-11"
+      }
+  ]
+  
