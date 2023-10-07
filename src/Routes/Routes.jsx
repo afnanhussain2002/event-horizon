@@ -23,10 +23,7 @@ const router = createBrowserRouter([
                 path:'/upcomming',
                 element:<UpcomingEvents></UpcomingEvents>
             },
-            {
-                path:'/popular',
-                element:<PopularEvents></PopularEvents>
-            },
+            
             {
                 path:'/contact',
                 element:<ContactUs></ContactUs>

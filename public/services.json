@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Concerts and Music Festivals",
+      "description": "See your favorite musicians perform live at concerts and music festivals around the world.",
+      "image": "https://img.freepik.com/free-photo/cheering-crowd-having-fun-music-festival-nightclub_53876-104261.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
+    },
+    {
+      "id": 2,
+      "name": "Theater and Performing Arts",
+      "description": "Experience the magic of live theater and performing arts, from Broadway shows to ballet performances.",
+      "image": "https://img.freepik.com/free-photo/smiling-male-mime-artist-holding-clapperboard-front-female-mime-stage_23-2147891561.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
+    },
+    {
+      "id": 3,
+      "name": "Film Screenings and Premieres",
+      "description": "Catch the latest movies on the big screen, or be one of the first to see a new release at a premiere event.",
+      "image": "https://img.freepik.com/free-photo/clapperboard-near-popcorn-bucket-3d-glasses_23-2147698988.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
+    },
+    {
+      "id": 4,
+      "name": "Comedy Shows",
+      "description": "Laugh the night away at a comedy show, featuring some of the funniest comedians in the world.",
+      "image": "https://img.freepik.com/free-photo/medium-shot-woman-using-megaphone_52683-96522.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
+    },
+    {
+      "id": 5,
+      "name": "Sports Events",
+      "description": "Cheer on your favorite team at a live sporting event, from baseball to basketball to football.",
+      "image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?size=626&ext=jpg&ga=GA1.1.1847281447.1680114005&semt=ais"
+    },
+    {
+        "id": 6,
+        "name": "Museums and Exhibitions",
+        "description": "Explore the world's most fascinating museums and exhibitions. ",
+        "image": "https://img.freepik.com/premium-photo/city-museum-interior_78361-1559.jpg?size=626&ext=jpg&ga=GA1.1.1086029018.1679389685&semt=ais"
+      }
+  ]
+  

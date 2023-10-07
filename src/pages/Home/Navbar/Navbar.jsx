@@ -5,9 +5,9 @@ const Navbar = () => {
     <div>
       <div className="drawer ">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className=" mt-2 flex flex-col items-center justify-start">
+        <div className=" mt-2 flex flex-col items-center justify-start absolute">
           {/* Page content here */}
-          <label htmlFor="my-drawer-2" className="btn drawer-button ">
+          <label htmlFor="my-drawer-2" className="btn drawer-button bg-transparent">
             <GrMenu />
           </label>
         </div>
@@ -27,9 +27,6 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink to={"/upcomming"}>Upcomming Events</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/popular"}>Popular Events</NavLink>
             </li>
             <li>
               <NavLink to={"/contact"}>Contact Us</NavLink>
