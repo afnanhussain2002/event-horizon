@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Service = ({ service }) => {
-  console.log(service);
+  
   const { name, image, description } = service;
   return (
     <>

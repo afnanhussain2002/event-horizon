@@ -5,6 +5,7 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 import UpcomingEvents from "../pages/Home/UpcomingEvents/UpcomingEvents";
 import PopularEvents from "../pages/PopularEvents/PopularEvents";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import PopularDetails from "../components/PopularDetails/PopularDetails";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,12 @@ const router = createBrowserRouter([
             {
                 path:'/contact',
                 element:<ContactUs></ContactUs>
+            },
+            {
+                path:'/popular/:id',
+                element: <PopularDetails></PopularDetails>,
+                loader: ()=> fetch('/popular_enents.json')
+                
             }
         ]
     }

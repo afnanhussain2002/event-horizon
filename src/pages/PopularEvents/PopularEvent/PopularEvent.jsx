@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const PopularEvent = ({pEvent}) => {
-    console.log(pEvent);
+   
     const {id, name, banner_img, tags, description} = pEvent;
   return (
     <>
