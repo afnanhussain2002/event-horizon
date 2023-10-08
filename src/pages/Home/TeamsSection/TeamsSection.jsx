@@ -45,7 +45,7 @@ const TeamsSection = () => {
                       />
                     </div>
                     <div className="p-6">
-                      <h5 className="mb-4 text-lg font-bold">{member.name}</h5>
+                      <h5 className="mb-4 text-lg font-bold text-sky-500">{member.name}</h5>
                       <p className="mb-4 text-neutral-500 dark:text-neutral-300">
                         {member.position}
                       </p>

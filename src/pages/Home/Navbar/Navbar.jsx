@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="drawer ">
+      <div className="drawer z-30">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className=" mt-2 flex flex-col items-center justify-start absolute">
+        <div className=" mt-2 ml-4  flex flex-col items-center justify-start absolute">
           {/* Page content here */}
-          <label htmlFor="my-drawer-2" className="btn drawer-button bg-transparent">
-            <GrMenu />
+          <label htmlFor="my-drawer-2" className="btn drawer-button bg-white bg-transparent ">
+            <GrMenu className="font-bold text-sky-500"/>
           </label>
         </div>
         <div className="drawer-side">
