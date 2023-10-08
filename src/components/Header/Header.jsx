@@ -1,6 +1,20 @@
+import { useContext } from 'react';
 import logo from '../../assets/logo.png'
+import { AuthContext } from '../../Provider/AuthProvider/AuthProvider';
+import { Link } from 'react-router-dom';
+import { BiSolidUserCircle } from "react-icons/bi";
 
 const Header = () => {
+  const {user, logOut} = useContext(AuthContext);
+  const handleLogOut = () =>{
+    logOut()
+    .then(result =>{
+      console.log('user logout Succsessfully');
+    })
+    .catch(error =>{
+      console.log(error);
+    })
+  }
   return (
     <div>
       <div className="navbar bg-base-100 shadow-lg rounded-lg">
@@ -8,18 +22,15 @@ const Header = () => {
           <img className='w-56' src={logo} alt="" />
         </div>
         <div className="flex-none gap-2">
-          <div className="form-control">
-            <input
-              type="text"
-              placeholder="Search"
-              className="input input-bordered w-24 md:w-auto"
-            />
-          </div>
+          
           <div className="dropdown dropdown-end">
+                {
+                  user? <>
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
-                <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-              </div>
+                  
+                  <img src={user.photoURL? user.photoURL : 'https://tse1.mm.bing.net/th?id=OIP.WPmdNoTzIuLFH4m-D36ArAEsEs&pid=Api&P=0&h=220'} />
+                  </div>
             </label>
             <ul
               tabIndex={0}
@@ -28,16 +39,21 @@ const Header = () => {
               <li>
                 <a className="justify-between">
                   Profile
-                  <span className="badge">New</span>
+                  
                 </a>
               </li>
               <li>
                 <a>Settings</a>
               </li>
               <li>
-                <a>Logout</a>
+                <a onClick={handleLogOut}>Logout</a>
               </li>
             </ul>
+                  </>: <button className='btn bg-sky-400 '><Link to={'/login'}>Login</Link></button>
+                }
+                
+              
+           
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { GrMenu } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
@@ -30,6 +31,10 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink to={"/contact"}>Contact Us</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/login"}>Login</NavLink>
+              <NavLink to={"/register"}>Register</NavLink>
             </li>
           </ul>
         </div>

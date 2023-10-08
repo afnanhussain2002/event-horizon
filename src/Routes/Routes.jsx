@@ -6,6 +6,9 @@ import UpcomingEvents from "../pages/Home/UpcomingEvents/UpcomingEvents";
 import PopularEvents from "../pages/PopularEvents/PopularEvents";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import PopularDetails from "../components/PopularDetails/PopularDetails";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
+import PrivateRoute from "../Provider/PrivateRoutes/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -31,9 +34,17 @@ const router = createBrowserRouter([
             },
             {
                 path:'/popular/:id',
-                element: <PopularDetails></PopularDetails>,
+                element: <PrivateRoute><PopularDetails></PopularDetails>,</PrivateRoute>,
                 loader: ()=> fetch('/popular_enents.json')
                 
+            },
+            {
+                path:'/login',
+                element: <Login></Login>
+            },
+            {
+                path:'/register',
+                element: <Register></Register>
             }
         ]
     }

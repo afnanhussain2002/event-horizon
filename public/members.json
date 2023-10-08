@@ -16,14 +16,14 @@
     {
       "id": 3,
       "name": "Michael Jones",
-      "image": "https://img.freepik.com/free-photo/man-wearing-waistcoat_1368-2886.jpg?size=626&ext=jpg&ga=GA1.1.1847281447.1680114005&semt=sph",
+      "image": "https://img.freepik.com/free-photo/man-isolated-showing-emotions-end-gestures_1303-30095.jpg?w=1380&t=st=1696787090~exp=1696787690~hmac=2f6bb20eb0c70e5525a67251a5d5021a4c90ce5f32bd4b34fe12d4bbe9a98865",
       "position": "CFO",
       "email": "michael.jones@eventhorizon.com"
     },
     {
       "id": 4,
       "name": "Susan Williams",
-      "image": "https://img.freepik.com/free-photo/artist-white_1368-3546.jpg?size=626&ext=jpg&ga=GA1.1.1847281447.1680114005&semt=sph",
+      "image": "https://img.freepik.com/free-photo/handsome-young-businessman-suit_273609-6513.jpg?w=1380&t=st=1696787150~exp=1696787750~hmac=6afc682f1feb2f040b70eef1cc2d8c557895c6a04f8cd7c7916119b5907b7c78",
       "position": "Director of Sales",
       "email": "susan.williams@eventhorizon.com"
     },
@@ -44,28 +44,28 @@
     {
       "id": 7,
       "name": "William Johnson",
-      "image": "https://www.freepik.com/free-photo/smiling-young-man-with-crossed-arms-outdoors_900706.htm#query=men%20image&position=7&from_view=search&track=ais",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.jAEnONxlpsGr8oF6yPHI9QHaHZ&pid=Api&P=0&h=220",
       "position": "Event Coordinator",
       "email": "william.johnson@event horizon.com"
     },
     {
       "id": 8,
       "name": "Anna Smith",
-      "image": "https://www.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_9960700.htm#query=women%20image&position=4&from_view=search&track=ais",
+      "image": "https://t4.ftcdn.net/jpg/02/82/72/09/360_F_282720917_7ZtAfEqEfA6CRT66imV9avGWXEg9w6Jt.jpg",
       "position": "Social Media Manager",
       "email": "anna.smith@event horizon.com"
     },
     {
       "id": 9,
       "name": "Robert Brown",
-      "image": "https://www.freepik.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#query=men%20image&position=0&from_view=search&track=ais",
+      "image": "https://img.freepik.com/free-photo/bearded-young-man-wearing-shirt_273609-5938.jpg?w=1380&t=st=1696787263~exp=1696787863~hmac=faa6a4a84519f4821284a1392fc39f2bed853054700ba2355b223a3a5a968397",
       "position": "Graphic Designer",
       "email": "robert.brown@event horizon.com"
     },
     {
       "id": 10,
       "name": "Mary Johnson",
-      "image": "https://www.freepik.com/free-photo/portrait-happy-woman_10012518.htm#query=women%20image&position=12&from_view=search&track=ais",
+      "image": "https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=1380&t=st=1696787295~exp=1696787895~hmac=3dd9613eceb71516db3c127ae2c3c07b6c8638bc9cb927225310104ca18efd42",
       "position": "Customer Service Representative",
       "email": "mary.johnson@event horizon.com"
     }
