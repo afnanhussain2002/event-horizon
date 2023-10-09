@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import Services from "../../components/Services/Services";
 
@@ -8,8 +9,12 @@ import Navbar from "./Navbar/Navbar";
 import Partners from "./Partners/Partners";
 import TeamsSection from "./TeamsSection/TeamsSection";
 
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 
 const Home = () => {
+   
     return (
         <div>
            <Banner></Banner>
