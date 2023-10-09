@@ -1,6 +1,8 @@
 import Header from "../../components/Header/Header";
 import Services from "../../components/Services/Services";
+
 import PopularEvents from "../PopularEvents/PopularEvents";
+import AboutUs from "./AboutUs/AboutUs";
 import Banner from "./Banner/Banner";
 import Navbar from "./Navbar/Navbar";
 import Partners from "./Partners/Partners";
@@ -12,6 +14,7 @@ const Home = () => {
         <div>
            <Banner></Banner>
            <div className="max-w-7xl mx-auto">
+            <AboutUs></AboutUs>
            <Services></Services>
            <PopularEvents></PopularEvents>
            <TeamsSection></TeamsSection>

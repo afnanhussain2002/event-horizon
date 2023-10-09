@@ -1,14 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root/Root";
 import Home from "../pages/Home/Home";
-import AboutUs from "../pages/AboutUs/AboutUs";
 import UpcomingEvents from "../pages/Home/UpcomingEvents/UpcomingEvents";
-import PopularEvents from "../pages/PopularEvents/PopularEvents";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import PopularDetails from "../components/PopularDetails/PopularDetails";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import PrivateRoute from "../Provider/PrivateRoutes/PrivateRoute";
+import Profile from "../pages/Profile/Profile";
+import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
 
 const router = createBrowserRouter([
     {
@@ -18,10 +18,6 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element:<Home></Home>
-            },
-            {
-                path:'/about',
-                element:<AboutUs></AboutUs>
             },
             {
                 path:'/upcomming',
@@ -37,6 +33,16 @@ const router = createBrowserRouter([
                 element: <PrivateRoute><PopularDetails></PopularDetails>,</PrivateRoute>,
                 loader: ()=> fetch('/popular_enents.json')
                 
+            },
+            {
+                path: '/profile',
+                element: <PrivateRoute><Profile></Profile></PrivateRoute>
+            },
+            {
+                path:'/service/:id',
+                element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
+                loader:()=> fetch('/services.json')
+
             },
             {
                 path:'/login',

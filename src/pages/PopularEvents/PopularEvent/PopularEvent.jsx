@@ -5,7 +5,7 @@ const PopularEvent = ({pEvent}) => {
     const {id, name, banner_img, tags, description} = pEvent;
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl mt-4">
+      <div className="card w-full bg-base-100 shadow-xl mt-4">
         <figure>
           <img
           className="w-full h-48"

@@ -1,39 +1,44 @@
 [
-    {
-      "id": 1,
-      "name": "Concerts and Music Festivals",
-      "description": "See your favorite musicians perform live at concerts and music festivals around the world.",
-      "image": "https://img.freepik.com/free-photo/cheering-crowd-having-fun-music-festival-nightclub_53876-104261.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
-    },
-    {
-      "id": 2,
-      "name": "Theater and Performing Arts",
-      "description": "Experience the magic of live theater and performing arts, from Broadway shows to ballet performances.",
-      "image": "https://img.freepik.com/free-photo/smiling-male-mime-artist-holding-clapperboard-front-female-mime-stage_23-2147891561.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
-    },
-    {
-      "id": 3,
-      "name": "Film Screenings and Premieres",
-      "description": "Catch the latest movies on the big screen, or be one of the first to see a new release at a premiere event.",
-      "image": "https://img.freepik.com/free-photo/clapperboard-near-popcorn-bucket-3d-glasses_23-2147698988.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
-    },
-    {
-      "id": 4,
-      "name": "Comedy Shows",
-      "description": "Laugh the night away at a comedy show, featuring some of the funniest comedians in the world.",
-      "image": "https://img.freepik.com/free-photo/medium-shot-woman-using-megaphone_52683-96522.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais"
-    },
-    {
-      "id": 5,
-      "name": "Sports Events",
-      "description": "Cheer on your favorite team at a live sporting event, from baseball to basketball to football.",
-      "image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?size=626&ext=jpg&ga=GA1.1.1847281447.1680114005&semt=ais"
-    },
-    {
-        "id": 6,
-        "name": "Museums and Exhibitions",
-        "description": "Explore the world's most fascinating museums and exhibitions. ",
-        "image": "https://img.freepik.com/premium-photo/city-museum-interior_78361-1559.jpg?size=626&ext=jpg&ga=GA1.1.1086029018.1679389685&semt=ais"
-      }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Concerts and Music Festivals",
+    "description": "Immerse yourself in the electrifying world of music with concerts and music festivals. Feel the adrenaline as you witness your favorite musicians perform live on stage, creating unforgettable moments. From intimate acoustic sets to grand music festivals featuring top artists, there's a musical experience for every taste. Let the music transport you to different realms, connecting with the crowd's energy. Enjoy a night of pure sonic delight and create memories that will last a lifetime. ",
+    "image": "https://img.freepik.com/free-photo/cheering-crowd-having-fun-music-festival-nightclub_53876-104261.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais",
+    "price": "$50 - $300"
+  },
+  {
+    "id": 2,
+    "name": "Theater and Performing Arts",
+    "description": "Step into the enchanting world of live theater and performing arts. From the dazzling lights of Broadway to the graceful moves of ballet, these performances promise to leave you in awe. Experience the magic of talented actors, dancers, and performers as they bring stories to life on stage. Whether you're a fan of classic dramas, musical extravaganzas, or contemporary dance, there's something for everyone to enjoy. Let the stage be your portal to a world of creativity and emotion. ",
+    "image": "https://img.freepik.com/free-photo/smiling-male-mime-artist-holding-clapperboard-front-female-mime-stage_23-2147891561.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais",
+    "price": "$40 - $250"
+  },
+  {
+    "id": 3,
+    "name": "Film Screenings and Premieres",
+    "description": "Indulge your love for cinema with film screenings and premieres. Experience the thrill of watching the latest movies on the big screen, surrounded by fellow film enthusiasts. Be among the first to witness the cinematic wonders of new releases at premiere events. Whether you prefer action-packed blockbusters or thought-provoking indie films, there's a screening for every taste. Grab some popcorn, put on your 3D glasses, and get ready for a cinematic adventure. ",
+    "image": "https://img.freepik.com/free-photo/clapperboard-near-popcorn-bucket-3d-glasses_23-2147698988.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais",
+    "price": "$15 - $50"
+  },
+  {
+    "id": 4,
+    "name": "Comedy Shows",
+    "description": "Prepare for a night of laughter at comedy shows featuring some of the funniest comedians in the world. Get ready to chuckle, giggle, and belly laugh as these comedic geniuses take the stage. Whether you enjoy witty one-liners, observational humor, or slapstick comedy, you're in for a treat. Share a hilarious evening with friends and create memories filled with joy and laughter. ",
+    "image": "https://img.freepik.com/free-photo/medium-shot-woman-using-megaphone_52683-96522.jpg?size=626&ext=jpg&ga=GA1.2.1847281447.1680114005&semt=ais",
+    "price": "$20 - $100"
+  },
+  {
+    "id": 5,
+    "name": "Sports Events",
+    "description": "Feel the adrenaline rush as you cheer on your favorite team at live sporting events. From the crack of the baseball bat to the slam dunk in basketball and the touchdown in football, experience the thrill of victory and the agony of defeat. Join fellow fans in the stands and be part of the excitement. Whether you're a die-hard supporter or a casual sports enthusiast, the atmosphere at these events is electrifying. ",
+    "image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?size=626&ext=jpg&ga=GA1.1.1847281447.1680114005&semt=ais",
+    "price": "$30 - $200"
+  },
+  {
+    "id": 6,
+    "name": "Museums and Exhibitions",
+    "description": "Embark on a journey of discovery as you explore the world's most fascinating museums and exhibitions. From art to history to science, these cultural experiences offer a glimpse into the richness of human creativity and knowledge. Marvel at priceless artworks, delve into the mysteries of ancient civilizations, and engage with interactive displays that spark your curiosity. Whether you're a history buff, an art lover, or a science enthusiast, there's a world of wonder waiting for you. ",
+    "image": "https://img.freepik.com/premium-photo/city-museum-interior_78361-1559.jpg?size=626&ext=jpg&ga=GA1.1.1086029018.1679389685&semt=ais",
+    "price": "$10 - $40"
+  }
+]
