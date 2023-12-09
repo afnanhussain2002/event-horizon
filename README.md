@@ -5,3 +5,5 @@ This is a event management agency website. The company name is Event Horzon. In 
 3. User will see an popular events section. But user have to login his account for read the details about popular service.
 4. When user logged with his email he will be see her image from that email on the header.
 5. User can also sign up with using her google account. 
+
+Website Live Link: https://event-managements-b6707.web.app/
